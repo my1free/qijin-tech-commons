@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>tech.qijin.commons</groupId>
+    <artifactId>commons-build</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.0-SNAPSHOT</version>
+    <name>QiJinTech commons package</name>
+    <description>QiJinTech commons package</description>
+    <properties>
+        <plugin.versions.version>2.3</plugin.versions.version>
+    </properties>
+    <modules>
+        <module>commons-dependencies</module>
+        <module>commons-parent</module>
+        <module>commons-lang</module>
+        <module>commons-utils</module>
+        <module>commons-trace</module>
+        <module>commons-advice</module>
+        <module>commons-mybatis</module>
+    </modules>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>versions-maven-plugin</artifactId>
+                <version>${plugin.versions.version}</version>
+                <configuration>
+                    <generateBackupPoms>false</generateBackupPoms>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
