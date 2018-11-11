@@ -47,7 +47,7 @@ public class EnvInterceptor implements Interceptor {
                 //update时，自动更新updated_at
                 Field fieldUpdatedAt = object.getClass().getDeclaredField("updated_at");
                 fieldUpdatedAt.setAccessible(true);
-                fieldUpdatedAt.set(new Date(), object);
+                fieldUpdatedAt.set(object, new Date());
             }
         }
         return invocation.proceed();
