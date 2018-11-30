@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>tech.qijin.commons</groupId>
     <artifactId>commons-build</artifactId>
@@ -19,7 +18,18 @@
         <module>commons-trace</module>
         <module>commons-advice</module>
         <module>commons-mybatis</module>
-    </modules>
+        <module>commons-cache</module>
+        <module>commons-web</module>
+        <module>commons-security</module>
+        <module>commons-schedule</module>
+        <module>commons-file</module>
+        <module>commons-notify</module>
+        <module>commons-id</module>
+        <module>commons-metric</module>
+        <module>commons-test</module>
+        <module>commons-audit</module>
+    <module>commons-encryption</module>
+  </modules>
 
     <build>
         <plugins>

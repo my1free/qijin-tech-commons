@@ -11,4 +11,7 @@ import org.aspectj.lang.annotation.Pointcut;
 public class CommonPointcut {
     @Pointcut("@annotation(tech.qijin.commons.advice.annotation.Retry)")
     public void retryAnnotationPointcut() {}
+
+    @Pointcut("@annotation(tech.qijin.commons.advice.annotation.Timed)")
+    public void timedAnnotationPointcut() {}
 }

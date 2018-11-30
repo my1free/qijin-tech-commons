@@ -42,6 +42,7 @@
         <servlet.version>4.0.1</servlet.version>
         <okhttp.version>3.11.0</okhttp.version>
         <druid.version>1.1.10</druid.version>
+        <commons.codec.version>1.11</commons.codec.version>
 
         <plugin.compiler.version>3.8.0</plugin.compiler.version>
         <plugin.source.version>3.0.1</plugin.source.version>
@@ -76,7 +77,57 @@
             </dependency>
             <dependency>
                 <groupId>tech.qijin.commons</groupId>
+                <artifactId>commons-security</artifactId>
+                <version>${commons.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>tech.qijin.commons</groupId>
+                <artifactId>commons-cache</artifactId>
+                <version>${commons.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>tech.qijin.commons</groupId>
                 <artifactId>commons-mybatis</artifactId>
+                <version>${commons.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>tech.qijin.commons</groupId>
+                <artifactId>commons-web</artifactId>
+                <version>${commons.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>tech.qijin.commons</groupId>
+                <artifactId>commons-schedule</artifactId>
+                <version>${commons.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>tech.qijin.commons</groupId>
+                <artifactId>commons-file</artifactId>
+                <version>${commons.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>tech.qijin.commons</groupId>
+                <artifactId>commons-id</artifactId>
+                <version>${commons.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>tech.qijin.commons</groupId>
+                <artifactId>commons-notify</artifactId>
+                <version>${commons.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>tech.qijin.commons</groupId>
+                <artifactId>commons-metric</artifactId>
+                <version>${commons.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>tech.qijin.commons</groupId>
+                <artifactId>commons-audit</artifactId>
+                <version>${commons.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>tech.qijin.commons</groupId>
+                <artifactId>commons-encription</artifactId>
                 <version>${commons.version}</version>
             </dependency>
 
@@ -192,6 +243,13 @@
                 <artifactId>druid-spring-boot-starter</artifactId>
                 <version>${druid.version}</version>
             </dependency>
+            <!-- https://mvnrepository.com/artifact/commons-codec/commons-codec -->
+            <dependency>
+                <groupId>commons-codec</groupId>
+                <artifactId>commons-codec</artifactId>
+                <version>${commons.codec.version}</version>
+            </dependency>
+
 
         </dependencies>
     </dependencyManagement>

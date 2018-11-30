@@ -24,7 +24,7 @@ public class RetryAdvice {
 
     private static final Logger logger = LoggerFactory.getLogger(RetryAdvice.class);
 
-    @Around("tech.qijin.commons.advice.advice.CommonPointcut.retryAnnotationPointcut()")
+    @Around("CommonPointcut.retryAnnotationPointcut()")
     public Object retry(ProceedingJoinPoint joinPoint) throws Throwable {
         MethodSignature signature = (MethodSignature) joinPoint.getSignature();
         String methodName = signature.getMethod().getName();

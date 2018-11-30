@@ -17,7 +17,11 @@
     <dependencies>
         <dependency>
             <groupId>tech.qijin.commons</groupId>
-            <artifactId>commons-lang</artifactId>
+            <artifactId>commons-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>tech.qijin.commons</groupId>
+            <artifactId>commons-web</artifactId>
         </dependency>
         <dependency>
             <groupId>tech.qijin.commons</groupId>

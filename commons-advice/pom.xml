@@ -23,6 +23,10 @@
             <groupId>tech.qijin.commons</groupId>
             <artifactId>commons-lang</artifactId>
         </dependency>
+        <dependency>
+            <groupId>tech.qijin.commons</groupId>
+            <artifactId>commons-utils</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
