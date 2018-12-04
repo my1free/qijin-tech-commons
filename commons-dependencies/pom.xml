@@ -130,6 +130,11 @@
                 <artifactId>commons-encription</artifactId>
                 <version>${commons.version}</version>
             </dependency>
+            <dependency>
+                <groupId>tech.qijin.commons</groupId>
+                <artifactId>commons-push</artifactId>
+                <version>${commons.version}</version>
+            </dependency>
 
             <dependency>
                 <!-- Import dependency management from Spring Boot -->

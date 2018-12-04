@@ -14,4 +14,7 @@ public class CommonPointcut {
 
     @Pointcut("@annotation(tech.qijin.commons.advice.annotation.Timed)")
     public void timedAnnotationPointcut() {}
+
+    @Pointcut("@annotation(tech.qijin.commons.advice.annotation.Cas)")
+    public void casAnnotationPointcut() {}
 }

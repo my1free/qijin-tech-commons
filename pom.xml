@@ -28,7 +28,8 @@
         <module>commons-metric</module>
         <module>commons-test</module>
         <module>commons-audit</module>
-    <module>commons-encryption</module>
+        <module>commons-encryption</module>
+        <module>commons-push</module>
   </modules>
 
     <build>
