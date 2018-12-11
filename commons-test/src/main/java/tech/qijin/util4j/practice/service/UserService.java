@@ -2,8 +2,8 @@ package tech.qijin.util4j.practice.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import tech.qijin.util4j.practice.dao.UserDao;
 import tech.qijin.util4j.practice.model.User;
+import tech.qijin.util4j.practice.dao.UserDao;
 
 import java.util.List;
 

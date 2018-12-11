@@ -8,7 +8,6 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.quartz.CronTriggerFactoryBean;
 import org.springframework.scheduling.quartz.JobDetailFactoryBean;
-import tech.qijin.commons.schedule.quartz.AbstractQuartzJobRegister;
 import tech.qijin.commons.schedule.quartz.QuartzBaseBean;
 import tech.qijin.util4j.practice.TestService;
 
